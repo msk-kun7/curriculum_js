@@ -17,7 +17,6 @@ isEven();
 
 // ・「ガソリンは〇〇です。ナンバーは△△です」と出力される「getNumGas」という関数を作成する
 
-//Humanクラスを作成
 class Car {
     constructor(gasoline,number){
         this.gasoline = gasoline;
@@ -28,6 +27,6 @@ class Car {
         console.log(`ガソリンは${this.gasoline}です。ナンバーは${this.number}です`)
     }
 }
-//Humanクラスをインスタンス化して、yamadaを作成
+
 let car = new Car('レギュラー',00-00);
 car.getNumGas();
